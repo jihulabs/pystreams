@@ -82,3 +82,11 @@ Ready to contribute? Here's how to set up `stockfighter` for local development.
     $ flake8 stockfighter tests
     $ python setup.py test
     $ tox
+
+   To get flake8 and tox, just pip install them into your virtualenv.
+
+6. Commit your changes and push your branch to GitHub::
+
+    $ git add .
+    $ git commit -m "Your detailed description of your changes."
+    $ git push origin name-of-your-bugfix-or-feature
