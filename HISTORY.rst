@@ -6,4 +6,4 @@ History
 ------------------
 
 * Set proper min verison on requests in setup.py
-* Use sessi
+* Use sessions from requests 
