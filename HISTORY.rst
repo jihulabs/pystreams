@@ -6,4 +6,4 @@ History
 ------------------
 
 * Set proper min verison on requests in setup.py
-* Use sessions from requests 
+* Use sessions from requests for Stockfigh
