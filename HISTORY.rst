@@ -6,4 +6,5 @@ History
 ------------------
 
 * Set proper min verison on requests in setup.py
-* Use sessions from requests for Stockfigh
+* Use sessions from requests for Stockfighter API client
+
