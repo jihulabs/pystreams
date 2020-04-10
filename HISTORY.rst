@@ -11,4 +11,4 @@ History
 0.2.7 (2015-12-21)
 ------------------
 
-* Fix 
+* Fix status_for_all_o
