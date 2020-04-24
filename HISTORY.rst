@@ -12,4 +12,4 @@ History
 ------------------
 
 * Fix status_for_all_orders_in_a_stock URL
-* Fix GM restart/resume/et
+* Fix GM restart/resume/etc failing due to 
