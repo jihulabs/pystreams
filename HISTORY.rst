@@ -15,4 +15,4 @@ History
 * Fix GM restart/resume/etc failing due to broken format strings
 
 0.2.6 (2015-12-14)
--
+-----------------
