@@ -17,4 +17,4 @@ History
 0.2.6 (2015-12-14)
 ------------------
 
-* Fix place
+* Fix place_new_order to actuall
