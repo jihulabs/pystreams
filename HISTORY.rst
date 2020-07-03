@@ -22,4 +22,4 @@ History
 0.2.5 (2015-12-14)
 ------------------
 
-* Pytho
+* Python3 re-compati
