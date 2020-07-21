@@ -22,4 +22,5 @@ History
 0.2.5 (2015-12-14)
 ------------------
 
-* Python3 re-compati
+* Python3 re-compatibility 
+* Fix
