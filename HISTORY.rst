@@ -23,4 +23,6 @@ History
 ------------------
 
 * Python3 re-compatibility 
-* Fix status_for_all_orders endpoi
+* Fix status_for_all_orders endpoint
+
+0.2.4 (2015-1
