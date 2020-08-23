@@ -26,4 +26,6 @@ History
 * Fix status_for_all_orders endpoint
 
 0.2.4 (2015-12-12)
---------------
+------------------
+
+* Fix 
