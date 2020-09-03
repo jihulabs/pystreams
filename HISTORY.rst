@@ -28,4 +28,4 @@ History
 0.2.4 (2015-12-12)
 ------------------
 
-* Fix some outlying GM
+* Fix some outlying GM implementation bug
