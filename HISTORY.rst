@@ -29,4 +29,4 @@ History
 ------------------
 
 * Fix some outlying GM implementation bugs
-* Add test for basic GM client
+* Add test for basic GM client object instanti
