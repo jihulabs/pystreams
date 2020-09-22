@@ -29,4 +29,6 @@ History
 ------------------
 
 * Fix some outlying GM implementation bugs
-* Add test for basic GM client object instanti
+* Add test for basic GM client object instantiation
+
+0.
