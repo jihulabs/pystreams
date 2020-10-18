@@ -34,4 +34,4 @@ History
 0.2.3 (2015-12-12)
 ------------------
 
-* Tests now 
+* Tests now also assert the API i
