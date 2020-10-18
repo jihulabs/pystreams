@@ -31,4 +31,5 @@ History
 * Fix some outlying GM implementation bugs
 * Add test for basic GM client object instantiation
 
-0.2.3 (2015-12
+0.2.3 (2015-12-12)
+--------
