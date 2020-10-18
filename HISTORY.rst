@@ -32,4 +32,6 @@ History
 * Add test for basic GM client object instantiation
 
 0.2.3 (2015-12-12)
---------
+------------------
+
+* Tests now 
