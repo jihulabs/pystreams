@@ -34,4 +34,5 @@ History
 0.2.3 (2015-12-12)
 ------------------
 
-* Tests now also assert the API is responding w/ good "ok" values, not just H
+* Tests now also assert the API is responding w/ good "ok" values, not just HTTP 200s.
+* Py
