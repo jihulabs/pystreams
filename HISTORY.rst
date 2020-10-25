@@ -37,4 +37,5 @@ History
 * Tests now also assert the API is responding w/ good "ok" values, not just HTTP 200s.
 * Py 3.5 testing included
 
-0.2.2 (2015-12-
+0.2.2 (2015-12-12)
+-------
