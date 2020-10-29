@@ -40,4 +40,4 @@ History
 0.2.2 (2015-12-12)
 ------------------
 
-* Fix testin
+* Fix testing and implem
