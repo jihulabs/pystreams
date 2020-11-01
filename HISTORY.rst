@@ -41,3 +41,5 @@ History
 ------------------
 
 * Fix testing and implementation for place_order
+
+0.2.
