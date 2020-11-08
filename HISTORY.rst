@@ -45,4 +45,4 @@ History
 0.2.2 (2015-12-11)
 ------------------
 
-* Make py2 and py
+* Make py2 and py3 compatibility
