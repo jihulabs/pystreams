@@ -47,4 +47,5 @@ History
 
 * Make py2 and py3 compatibility a thing, guaranteed by Tox and Travis.
 
-0.2.1 (2015-12-1
+0.2.1 (2015-12-11)
+--------
