@@ -52,4 +52,4 @@ History
 
 * Working README and quick install
 
-0.2
+0.2.0 (2015-12-1
