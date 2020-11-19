@@ -50,4 +50,6 @@ History
 0.2.1 (2015-12-11)
 ------------------
 
-* Working README and quick in
+* Working README and quick install
+
+0.2
