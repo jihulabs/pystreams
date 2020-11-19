@@ -50,4 +50,4 @@ History
 0.2.1 (2015-12-11)
 ------------------
 
-* Working RE
+* Working README and quick in
