@@ -55,4 +55,4 @@ History
 0.2.0 (2015-12-11)
 ------------------
 
-* All API
+* All API functions 
