@@ -58,4 +58,4 @@ History
 * All API functions implemented and tested
 
 0.1.0 (2015-12-11)
----
+--------------
