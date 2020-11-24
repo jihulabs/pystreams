@@ -55,4 +55,6 @@ History
 0.2.0 (2015-12-11)
 ------------------
 
-* All API functions implemented and
+* All API functions implemented and tested
+
+0.1.
