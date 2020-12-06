@@ -1,4 +1,5 @@
 include AUTHORS.rst
 include CONTRIBUTING.rst
 include HISTORY.rst
-include LIC
+include LICENSE
+include REA
