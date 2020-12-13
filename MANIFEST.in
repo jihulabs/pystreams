@@ -4,4 +4,4 @@ include HISTORY.rst
 include LICENSE
 include README.rst
 
-recurs
+recursive-include te
