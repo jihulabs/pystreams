@@ -1,1 +1,1 @@
-.PHONY: clean-pyc clea
+.PHONY: clean-pyc clean-build docs
