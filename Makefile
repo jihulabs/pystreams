@@ -1,1 +1,1 @@
-.PHO
+.PHONY: clean-pyc clea
