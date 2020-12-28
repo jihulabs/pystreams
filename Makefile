@@ -1,2 +1,2 @@
 .PHONY: clean-pyc clean-build docs clean
-defi
+define BROWSER_PYSCRIPT
