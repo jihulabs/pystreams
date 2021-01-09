@@ -2,4 +2,4 @@
 define BROWSER_PYSCRIPT
 import os, webbrowser, sys
 try:
-	f
+	from urllib impor
