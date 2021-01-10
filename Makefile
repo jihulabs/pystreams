@@ -3,4 +3,5 @@ define BROWSER_PYSCRIPT
 import os, webbrowser, sys
 try:
 	from urllib import pathname2url
-excep
+except:
+	from urll
