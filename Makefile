@@ -4,4 +4,4 @@ import os, webbrowser, sys
 try:
 	from urllib import pathname2url
 except:
-	from urll
+	from urllib.request imp
