@@ -6,4 +6,4 @@ try:
 except:
 	from urllib.request import pathname2url
 
-webbrowser.open("file:/
+webbrowser.open("file://" + pathname2
