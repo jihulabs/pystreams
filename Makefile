@@ -8,4 +8,4 @@ except:
 
 webbrowser.open("file://" + pathname2url(os.path.abspath(sys.argv[1])))
 endef
-export
+export BROWSER_PY
