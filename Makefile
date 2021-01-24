@@ -11,4 +11,5 @@ endef
 export BROWSER_PYSCRIPT
 BROWSER := python -c "$$BROWSER_PYSCRIPT"
 
-he
+help:
+	@ech
