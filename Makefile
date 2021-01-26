@@ -12,4 +12,4 @@ export BROWSER_PYSCRIPT
 BROWSER := python -c "$$BROWSER_PYSCRIPT"
 
 help:
-	@echo "clean - 
+	@echo "clean - remove all 
