@@ -12,4 +12,5 @@ export BROWSER_PYSCRIPT
 BROWSER := python -c "$$BROWSER_PYSCRIPT"
 
 help:
-	@echo "clean - remove all build, test, coverage and Python ar
+	@echo "clean - remove all build, test, coverage and Python artifacts"
+	@ec
