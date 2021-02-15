@@ -13,4 +13,4 @@ BROWSER := python -c "$$BROWSER_PYSCRIPT"
 
 help:
 	@echo "clean - remove all build, test, coverage and Python artifacts"
-	@ec
+	@echo "clean
