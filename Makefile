@@ -18,4 +18,5 @@ help:
 	@echo "clean-test - remove test and coverage artifacts"
 	@echo "lint - check style with flake8"
 	@echo "test - run tests quickly with the default Python"
-	@echo "test-all - run tests on every Python version with 
+	@echo "test-all - run tests on every Python version with tox"
+	@echo "cove
