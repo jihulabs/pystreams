@@ -20,4 +20,4 @@ help:
 	@echo "test - run tests quickly with the default Python"
 	@echo "test-all - run tests on every Python version with tox"
 	@echo "coverage - check code coverage quickly with the default Python"
-	@echo "docs - genera
+	@echo "docs - generate Sphinx HTML doc
