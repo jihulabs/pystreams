@@ -23,4 +23,4 @@ help:
 	@echo "docs - generate Sphinx HTML documentation, including API docs"
 	@echo "release - package and upload a release"
 	@echo "dist - package"
-	@echo "install - install
+	@echo "install - install the package
