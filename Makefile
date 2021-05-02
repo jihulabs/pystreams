@@ -23,4 +23,6 @@ help:
 	@echo "docs - generate Sphinx HTML documentation, including API docs"
 	@echo "release - package and upload a release"
 	@echo "dist - package"
-	@echo "install - install the package to the active Python's site-packag
+	@echo "install - install the package to the active Python's site-packages"
+
+clean: clean-
