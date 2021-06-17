@@ -27,4 +27,5 @@ help:
 
 clean: clean-build clean-pyc clean-test
 
-clean-bu
+clean-build:
+	rm -fr build/
