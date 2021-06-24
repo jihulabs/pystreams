@@ -29,3 +29,5 @@ clean: clean-build clean-pyc clean-test
 
 clean-build:
 	rm -fr build/
+	rm -fr dist/
+	r
