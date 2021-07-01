@@ -31,4 +31,4 @@ clean-build:
 	rm -fr build/
 	rm -fr dist/
 	rm -fr .eggs/
-	find . -name '*.
+	find . -name '*.egg-info' -exec
