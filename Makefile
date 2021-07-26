@@ -34,4 +34,5 @@ clean-build:
 	find . -name '*.egg-info' -exec rm -fr {} +
 	find . -name '*.egg' -exec rm -f {} +
 
-clean-py
+clean-pyc:
+	find . 
