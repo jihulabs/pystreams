@@ -35,4 +35,4 @@ clean-build:
 	find . -name '*.egg' -exec rm -f {} +
 
 clean-pyc:
-	find . -name '*.pyc' -exec r
+	find . -name '*.pyc' -exec rm -f {} +
