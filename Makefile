@@ -36,4 +36,4 @@ clean-build:
 
 clean-pyc:
 	find . -name '*.pyc' -exec rm -f {} +
-	find . -name '*.
+	find . -name '*.pyo' -exec rm -f {} 
