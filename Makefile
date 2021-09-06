@@ -42,4 +42,4 @@ clean-pyc:
 
 clean-test:
 	rm -fr .tox/
-	rm -f
+	rm -f .coverag
