@@ -41,4 +41,5 @@ clean-pyc:
 	find . -name '__pycache__' -exec rm -fr {} +
 
 clean-test:
+	rm -fr .tox/
 	rm -f
