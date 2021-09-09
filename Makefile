@@ -46,4 +46,6 @@ clean-test:
 	rm -fr htmlcov/
 
 lint:
-	flake8 stoc
+	flake8 stockfighter tests
+
+test:
