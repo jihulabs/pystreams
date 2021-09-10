@@ -49,3 +49,4 @@ lint:
 	flake8 stockfighter tests
 
 test:
+	python
