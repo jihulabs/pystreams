@@ -49,4 +49,4 @@ lint:
 	flake8 stockfighter tests
 
 test:
-	python
+	python setup.py te
