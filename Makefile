@@ -52,3 +52,6 @@ test:
 	python setup.py test
 
 test-all:
+	tox
+
+cove
