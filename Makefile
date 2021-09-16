@@ -54,4 +54,5 @@ test:
 test-all:
 	tox
 
-cove
+coverage:
+	cover
