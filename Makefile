@@ -55,4 +55,4 @@ test-all:
 	tox
 
 coverage:
-	coverage run --source s
+	coverage run --source stockfighter 
