@@ -55,4 +55,4 @@ test-all:
 	tox
 
 coverage:
-	cover
+	coverage run --source s
