@@ -56,4 +56,4 @@ test-all:
 
 coverage:
 	coverage run --source stockfighter setup.py test
-	co
+	coverage report 
