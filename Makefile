@@ -55,4 +55,5 @@ test-all:
 	tox
 
 coverage:
-	coverage run --source stockfighter 
+	coverage run --source stockfighter setup.py test
+	co
