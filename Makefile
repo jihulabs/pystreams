@@ -57,4 +57,5 @@ test-all:
 coverage:
 	coverage run --source stockfighter setup.py test
 	coverage report -m
-	coverage 
+	coverage html
+	$(BROW
