@@ -58,4 +58,6 @@ coverage:
 	coverage run --source stockfighter setup.py test
 	coverage report -m
 	coverage html
-	$(BROWSER) htmlcov/i
+	$(BROWSER) htmlcov/index.html
+
+docs
