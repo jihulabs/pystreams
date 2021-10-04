@@ -60,4 +60,5 @@ coverage:
 	coverage html
 	$(BROWSER) htmlcov/index.html
 
-docs
+docs:
+	rm -f docs/stock
