@@ -62,4 +62,4 @@ coverage:
 
 docs:
 	rm -f docs/stockfighter.rst
-	r
+	rm -f docs/modules
