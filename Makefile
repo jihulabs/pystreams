@@ -61,4 +61,5 @@ coverage:
 	$(BROWSER) htmlcov/index.html
 
 docs:
-	rm -f docs/stock
+	rm -f docs/stockfighter.rst
+	r
