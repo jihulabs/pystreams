@@ -62,4 +62,5 @@ coverage:
 
 docs:
 	rm -f docs/stockfighter.rst
-	rm -f docs/modules
+	rm -f docs/modules.rst
+	sphinx-a
