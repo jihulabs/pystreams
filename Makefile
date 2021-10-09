@@ -64,4 +64,4 @@ docs:
 	rm -f docs/stockfighter.rst
 	rm -f docs/modules.rst
 	sphinx-apidoc -o docs/ stockfighter
-	$(MAK
+	$(MAKE) -C docs cl
