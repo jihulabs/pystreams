@@ -68,4 +68,4 @@ docs:
 	$(MAKE) -C docs html
 	$(BROWSER) docs/_build/html/index.html
 
-serv
+servedocs: 
