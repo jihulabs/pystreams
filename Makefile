@@ -66,4 +66,4 @@ docs:
 	sphinx-apidoc -o docs/ stockfighter
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
-	$(BRO
+	$(BROWSER) docs/_build
