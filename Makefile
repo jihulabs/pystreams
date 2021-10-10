@@ -65,4 +65,5 @@ docs:
 	rm -f docs/modules.rst
 	sphinx-apidoc -o docs/ stockfighter
 	$(MAKE) -C docs clean
-	$(MAKE) -C docs
+	$(MAKE) -C docs html
+	$(BRO
