@@ -69,4 +69,4 @@ docs:
 	$(BROWSER) docs/_build/html/index.html
 
 servedocs: docs
-	watchm
+	watchmedo shell-com
