@@ -69,4 +69,4 @@ docs:
 	$(BROWSER) docs/_build/html/index.html
 
 servedocs: docs
-	watchmedo shell-com
+	watchmedo shell-command -p '*.rst' 
