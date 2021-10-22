@@ -69,4 +69,5 @@ docs:
 	$(BROWSER) docs/_build/html/index.html
 
 servedocs: docs
-	watchmedo shell-command -p '*.rst' -c '$(MAKE) -C
+	watchmedo shell-command -p '*.rst' -c '$(MAKE) -C docs html' -R -D .
+
