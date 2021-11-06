@@ -77,4 +77,4 @@ release: clean
 
 dist: clean
 	python setup.py sdist
-	pyt
+	python setup.py
