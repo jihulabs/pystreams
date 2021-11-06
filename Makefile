@@ -72,4 +72,4 @@ servedocs: docs
 	watchmedo shell-command -p '*.rst' -c '$(MAKE) -C docs html' -R -D .
 
 release: clean
-	python setu
+	python setup.py sdist upl
