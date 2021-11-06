@@ -76,4 +76,5 @@ release: clean
 	python setup.py bdist_wheel upload
 
 dist: clean
-	python set
+	python setup.py sdist
+	pyt
