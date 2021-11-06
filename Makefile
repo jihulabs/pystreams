@@ -73,4 +73,4 @@ servedocs: docs
 
 release: clean
 	python setup.py sdist upload
-	python
+	python setup.py b
