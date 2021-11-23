@@ -80,4 +80,5 @@ dist: clean
 	python setup.py bdist_wheel
 	ls -l dist
 
-install: cl
+install: clean
+	python se
