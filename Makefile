@@ -81,4 +81,4 @@ dist: clean
 	ls -l dist
 
 install: clean
-	python se
+	python setup.py install
