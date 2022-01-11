@@ -2,4 +2,4 @@
 Stockfighter
 ===============================
 
-.. imag
+.. image:: https://badges
