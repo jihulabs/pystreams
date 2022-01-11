@@ -2,4 +2,4 @@
 Stockfighter
 ===============================
 
-.. image:: https://badges
+.. image:: https://badges.gitter.im/str
