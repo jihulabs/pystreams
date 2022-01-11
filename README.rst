@@ -2,4 +2,4 @@
 Stockfighter
 ===============================
 
-.. image:: https://badges.gitter.im/str
+.. image:: https://badges.gitter.im/striglia/stoc
