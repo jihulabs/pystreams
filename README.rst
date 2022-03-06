@@ -9,4 +9,4 @@ Stockfighter
 .. image:: https://img.shields.io/pypi/v/stockfighter.svg
         :target: https://pypi.python.org/pypi/stockfighter
 
-.. image:: https:/
+.. image:: https://img.shields.io/travis/
