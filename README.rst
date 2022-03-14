@@ -10,4 +10,4 @@ Stockfighter
         :target: https://pypi.python.org/pypi/stockfighter
 
 .. image:: https://img.shields.io/travis/striglia/stockfighter.svg
-        :target: https://travis-ci.org/s
+        :target: https://travis-ci.org/striglia/stockfighter
