@@ -12,4 +12,5 @@ Stockfighter
 .. image:: https://img.shields.io/travis/striglia/stockfighter.svg
         :target: https://travis-ci.org/striglia/stockfighter
 
-.. image:: https://readthedocs.org/projects/stockfighter/badge/?version=lates
+.. image:: https://readthedocs.org/projects/stockfighter/badge/?version=latest
+        :target:
