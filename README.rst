@@ -13,4 +13,4 @@ Stockfighter
         :target: https://travis-ci.org/striglia/stockfighter
 
 .. image:: https://readthedocs.org/projects/stockfighter/badge/?version=latest
-        :target: https://readthedocs.org/projects/stockfighter
+        :target: https://readthedocs.org/projects/stockfighter/?badge=la
