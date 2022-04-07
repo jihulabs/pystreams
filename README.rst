@@ -14,4 +14,7 @@ Stockfighter
 
 .. image:: https://readthedocs.org/projects/stockfighter/badge/?version=latest
         :target: https://readthedocs.org/projects/stockfighter/?badge=latest
-        :alt: Documentation 
+        :alt: Documentation Status
+
+
+API
