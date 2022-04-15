@@ -17,4 +17,4 @@ Stockfighter
         :alt: Documentation Status
 
 
-API wrapper fo
+API wrapper for Stockfighte
