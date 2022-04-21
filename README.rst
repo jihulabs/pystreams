@@ -17,4 +17,6 @@ Stockfighter
         :alt: Documentation Status
 
 
-API wrapper for Stockfighte
+API wrapper for Stockfighter
+
+* Free soft
