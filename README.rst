@@ -19,4 +19,4 @@ Stockfighter
 
 API wrapper for Stockfighter
 
-* Free soft
+* Free software: I
