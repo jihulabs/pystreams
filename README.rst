@@ -20,4 +20,4 @@ Stockfighter
 API wrapper for Stockfighter
 
 * Free software: ISC license
-* Limited documentation exist
+* Limited documentation exists at: https://stockfighte
