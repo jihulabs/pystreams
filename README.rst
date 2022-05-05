@@ -23,4 +23,4 @@ API wrapper for Stockfighter
 * Limited documentation exists at: https://stockfighter.readthedocs.org. Happily accepting patches to improve it!
 
 Get things started
--
+------------
