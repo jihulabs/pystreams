@@ -27,4 +27,6 @@ Get things started
 
 Not hard!
 
-.. code-bloc
+.. code-block:: shell
+
+ 
