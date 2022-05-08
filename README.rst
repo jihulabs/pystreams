@@ -25,4 +25,6 @@ API wrapper for Stockfighter
 Get things started
 --------------------
 
-No
+Not hard!
+
+.. 
