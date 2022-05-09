@@ -29,4 +29,4 @@ Not hard!
 
 .. code-block:: shell
 
-    pip inst
+    pip install stockfight
