@@ -29,4 +29,6 @@ Not hard!
 
 .. code-block:: shell
 
-    pip install stockfight
+    pip install stockfighter
+
+Using the
