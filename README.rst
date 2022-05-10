@@ -31,4 +31,4 @@ Not hard!
 
     pip install stockfighter
 
-Using the
+Using the standard API
