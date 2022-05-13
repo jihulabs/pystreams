@@ -33,4 +33,6 @@ Not hard!
 
 Using the standard API
 
-.. code-block:: pytho
+.. code-block:: python
+
+    from stock
