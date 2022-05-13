@@ -35,4 +35,5 @@ Using the standard API
 
 .. code-block:: python
 
-    from stockfighter import Stoc
+    from stockfighter import Stockfighter
+ 
