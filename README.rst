@@ -33,4 +33,4 @@ Not hard!
 
 Using the standard API
 
-.. code-blo
+.. code-block:: pytho
