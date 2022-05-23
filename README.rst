@@ -36,4 +36,4 @@ Using the standard API
 .. code-block:: python
 
     from stockfighter import Stockfighter
-    s = Stockfighter(venue='TESTEX', a
+    s = Stockfighter(venue='TESTEX', account='EXB1
