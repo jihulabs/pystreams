@@ -39,4 +39,4 @@ Using the standard API
     s = Stockfighter(venue='TESTEX', account='EXB123456', api_key='123456')
     print(s.venue_stocks())
 
-...a
+...and the GM API for m
