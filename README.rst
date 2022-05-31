@@ -39,4 +39,6 @@ Using the standard API
     s = Stockfighter(venue='TESTEX', account='EXB123456', api_key='123456')
     print(s.venue_stocks())
 
-...and the GM API for managing levels and suc
+...and the GM API for managing levels and such
+
+.. code-block
