@@ -43,4 +43,4 @@ Using the standard API
 
 .. code-block:: python
 
-   
+    from stockfigh
