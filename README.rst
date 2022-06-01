@@ -44,4 +44,5 @@ Using the standard API
 .. code-block:: python
 
     from stockfighter import GM
-    gm = GM(
+    gm = GM(api_key=123456)
+ 
