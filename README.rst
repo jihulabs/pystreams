@@ -43,4 +43,5 @@ Using the standard API
 
 .. code-block:: python
 
-    from stockfighter import G
+    from stockfighter import GM
+    gm = GM(
