@@ -45,4 +45,6 @@ Using the standard API
 
     from stockfighter import GM
     gm = GM(api_key=123456)
-    print gm.start('first_steps')  # Start the first level programmatical
+    print gm.start('first_steps')  # Start the first level programmatically
+
+For
