@@ -47,4 +47,4 @@ Using the standard API
     gm = GM(api_key=123456)
     print gm.start('first_steps')  # Start the first level programmatically
 
-For simplicity (and so you can share your code!) the GM and 
+For simplicity (and so you can share your code!) the GM and Stockfighter
