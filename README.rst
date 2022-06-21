@@ -48,4 +48,4 @@ Using the standard API
     print gm.start('first_steps')  # Start the first level programmatically
 
 For simplicity (and so you can share your code!) the GM and Stockfighter
-clients will al
+clients will also default to reading 
