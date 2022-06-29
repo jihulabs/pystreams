@@ -49,4 +49,6 @@ Using the standard API
 
 For simplicity (and so you can share your code!) the GM and Stockfighter
 clients will also default to reading api keys from the environment variable
-API_KEY, if none was p
+API_KEY, if none was passed.
+
+Features
