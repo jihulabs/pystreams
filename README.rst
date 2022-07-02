@@ -54,4 +54,4 @@ API_KEY, if none was passed.
 Features
 --------------------
 
-* Ca
+* Calling the core
