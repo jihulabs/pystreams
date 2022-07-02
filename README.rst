@@ -52,3 +52,4 @@ clients will also default to reading api keys from the environment variable
 API_KEY, if none was passed.
 
 Features
+-----------------
