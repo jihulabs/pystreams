@@ -54,4 +54,4 @@ API_KEY, if none was passed.
 Features
 --------------------
 
-* Calling the core
+* Calling the core Stockfighter API i
