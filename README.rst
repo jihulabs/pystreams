@@ -55,4 +55,4 @@ Features
 --------------------
 
 * Calling the core Stockfighter API is pretty important :)
-* Includes some rudimentar
+* Includes some rudimentary support 
