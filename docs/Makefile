@@ -80,3 +80,17 @@ htmlhelp:
 	@echo
 	@echo "Build finished; now you can run HTML Help Workshop with the" \
 	      ".hhp project file in $(BUILDDIR)/htmlhelp."
+
+qthelp:
+	$(SPHINXBUILD) -b qthelp $(ALLSPHINXOPTS) $(BUILDDIR)/qthelp
+	@echo
+	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
+	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/stockfighter.qhcp"
+	@echo "To view the help file:"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/stockfighter.qhc"
+
+devhelp:
+	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
+	@echo
+	@echo "Build finished."
