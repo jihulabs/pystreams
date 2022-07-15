@@ -94,3 +94,12 @@ devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
+	@echo "To view the help file:"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/stockfighter"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/stockfighter"
+	@echo "# devhelp"
+
+epub:
+	$(SPHINXBUILD) -b epub $(ALLSPHINXOPTS) $(BUILDDIR)/epub
+	@echo
+	@echo "Build finished. The epub file is in $(BUILDDIR)/epub."
