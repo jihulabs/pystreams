@@ -238,3 +238,15 @@ latex_documents = [
 # -- Options for manual page output ------------------------------------
 
 # One entry per manual page. List of tuples
+# (source start file, name, description, authors, manual section).
+man_pages = [
+    ('index', 'stockfighter',
+     u'Stockfighter Documentation',
+     [u'Scott Triglia'], 1)
+]
+
+# If true, show URL addresses after external links.
+#man_show_urls = False
+
+
+# -- Options for Texinfo output ----------------------------------------
