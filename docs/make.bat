@@ -100,3 +100,18 @@ if "%1" == "json" (
 	echo.Build finished; now you can process the JSON files.
 	goto end
 )
+
+if "%1" == "htmlhelp" (
+	%SPHINXBUILD% -b htmlhelp %ALLSPHINXOPTS% %BUILDDIR%/htmlhelp
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished; now you can run HTML Help Workshop with the ^
+.hhp project file in %BUILDDIR%/htmlhelp.
+	goto end
+)
+
+if "%1" == "qthelp" (
+	%SPHINXBUILD% -b qthelp %ALLSPHINXOPTS% %BUILDDIR%/qthelp
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished; now you can run "qcollectiongenerator" with the ^
