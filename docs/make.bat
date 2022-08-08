@@ -75,3 +75,17 @@ if "%1" == "dirhtml" (
 	echo.
 	echo.Build finished. The HTML pages are in %BUILDDIR%/dirhtml.
 	goto end
+)
+
+if "%1" == "singlehtml" (
+	%SPHINXBUILD% -b singlehtml %ALLSPHINXOPTS% %BUILDDIR%/singlehtml
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished. The HTML pages are in %BUILDDIR%/singlehtml.
+	goto end
+)
+
+if "%1" == "pickle" (
+	%SPHINXBUILD% -b pickle %ALLSPHINXOPTS% %BUILDDIR%/pickle
+	if errorlevel 1 exit /b 1
+	echo.
