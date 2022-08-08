@@ -89,3 +89,14 @@ if "%1" == "pickle" (
 	%SPHINXBUILD% -b pickle %ALLSPHINXOPTS% %BUILDDIR%/pickle
 	if errorlevel 1 exit /b 1
 	echo.
+	echo.Build finished; now you can process the pickle files.
+	goto end
+)
+
+if "%1" == "json" (
+	%SPHINXBUILD% -b json %ALLSPHINXOPTS% %BUILDDIR%/json
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished; now you can process the JSON files.
+	goto end
+)
