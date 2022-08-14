@@ -115,3 +115,17 @@ if "%1" == "qthelp" (
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished; now you can run "qcollectiongenerator" with the ^
+.qhcp project file in %BUILDDIR%/qthelp, like this:
+	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\stockfighter.qhcp
+	echo.To view the help file:
+	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\stockfighter.ghc
+	goto end
+)
+
+if "%1" == "devhelp" (
+	%SPHINXBUILD% -b devhelp %ALLSPHINXOPTS% %BUILDDIR%/devhelp
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished.
+	goto end
+)
