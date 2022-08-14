@@ -129,3 +129,21 @@ if "%1" == "devhelp" (
 	echo.Build finished.
 	goto end
 )
+
+if "%1" == "epub" (
+	%SPHINXBUILD% -b epub %ALLSPHINXOPTS% %BUILDDIR%/epub
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished. The epub file is in %BUILDDIR%/epub.
+	goto end
+)
+
+if "%1" == "latex" (
+	%SPHINXBUILD% -b latex %ALLSPHINXOPTS% %BUILDDIR%/latex
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished; the LaTeX files are in %BUILDDIR%/latex.
+	goto end
+)
+
+if "%1" == "latexpdf" (
