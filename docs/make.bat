@@ -171,3 +171,10 @@ if "%1" == "text" (
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The text files are in %BUILDDIR%/text.
+	goto end
+)
+
+if "%1" == "man" (
+	%SPHINXBUILD% -b man %ALLSPHINXOPTS% %BUILDDIR%/man
+	if errorlevel 1 exit /b 1
+	echo.
