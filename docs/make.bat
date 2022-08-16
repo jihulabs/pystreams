@@ -161,3 +161,13 @@ if "%1" == "latexpdfja" (
 	cd %BUILDDIR%/latex
 	make all-pdf-ja
 	cd %BUILDDIR%/..
+	echo.
+	echo.Build finished; the PDF files are in %BUILDDIR%/latex.
+	goto end
+)
+
+if "%1" == "text" (
+	%SPHINXBUILD% -b text %ALLSPHINXOPTS% %BUILDDIR%/text
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished. The text files are in %BUILDDIR%/text.
