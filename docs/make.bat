@@ -178,3 +178,20 @@ if "%1" == "man" (
 	%SPHINXBUILD% -b man %ALLSPHINXOPTS% %BUILDDIR%/man
 	if errorlevel 1 exit /b 1
 	echo.
+	echo.Build finished. The manual pages are in %BUILDDIR%/man.
+	goto end
+)
+
+if "%1" == "texinfo" (
+	%SPHINXBUILD% -b texinfo %ALLSPHINXOPTS% %BUILDDIR%/texinfo
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished. The Texinfo files are in %BUILDDIR%/texinfo.
+	goto end
+)
+
+if "%1" == "gettext" (
+	%SPHINXBUILD% -b gettext %I18NSPHINXOPTS% %BUILDDIR%/locale
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished. The message catalogs are in %BUILDDIR%/locale.
