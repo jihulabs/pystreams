@@ -223,3 +223,21 @@ if "%1" == "doctest" (
 results in %BUILDDIR%/doctest/output.txt.
 	goto end
 )
+
+if "%1" == "xml" (
+	%SPHINXBUILD% -b xml %ALLSPHINXOPTS% %BUILDDIR%/xml
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished. The XML files are in %BUILDDIR%/xml.
+	goto end
+)
+
+if "%1" == "pseudoxml" (
+	%SPHINXBUILD% -b pseudoxml %ALLSPHINXOPTS% %BUILDDIR%/pseudoxml
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished. The pseudo-XML files are in %BUILDDIR%/pseudoxml.
+	goto end
+)
+
+:end
