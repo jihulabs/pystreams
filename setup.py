@@ -29,3 +29,9 @@ setup(
     install_requires=[
         'requests>=2.4.2',
         'six',
+    ],
+    license="ISCL",
+    zip_safe=False,
+    keywords='stockfighter',
+    classifiers=[
+        'Development Status :: 3 - Alpha',
