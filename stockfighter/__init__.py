@@ -1,3 +1,4 @@
 # -*- coding: utf-8 -*-
 
-__author__ = 'Scott Trig
+__author__ = 'Scott Triglia'
+__
