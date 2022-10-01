@@ -4,4 +4,4 @@ __author__ = 'Scott Triglia'
 __email__ = 'scott.triglia@gmail.com'
 __version__ = '0.1.0'
 
-from .stoc
+from .stockfighter imp
