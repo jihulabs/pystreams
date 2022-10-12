@@ -13,3 +13,11 @@ class GM(object):
 
         # Data on which levels you have running.
         self.level_data = self._load_data()
+
+    def _load_data(self):
+        """Internal method for querying the GM api for currently running levels
+        and storing that state."""
+        url = urljoin(self.base_url, 'levels')
+        resp = requests.get(url, headers=self.headers)
+        # TOOD: Confirm/deny that this is a real API for the levels currenlty running...
+        if resp.content:
