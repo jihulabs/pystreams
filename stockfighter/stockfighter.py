@@ -19,3 +19,16 @@ class Stockfighter(object):
 
         self.session = requests.Session()
         self.session.headers.update({
+            'X-Starfighter-Authorization': self.api_key
+        })
+
+    def heartbeat(self):
+        """Check The API Is Up.
+
+        https://starfighter.readme.io/docs/heartbeat
+        """
+        url = urljoin(self.base_url, 'heartbeat')
+        return self.session.get(url).json()['ok']
+
+    def venue_healthcheck(self):
+        """Check A Venue Is Up.
