@@ -32,3 +32,13 @@ class Stockfighter(object):
 
     def venue_healthcheck(self):
         """Check A Venue Is Up.
+
+        https://starfighter.readme.io/docs/venue-healthcheck
+        """
+        url = urljoin(self.base_url, 'venues/TESTEX/heartbeat')
+        return self.session.get(url).json()['ok']
+
+    def venue_stocks(self):
+        """List the stocks available for trading on the venue.
+
+        https://starfighter.readme.io/docs/list-stocks-on-venue
