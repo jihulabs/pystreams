@@ -71,3 +71,17 @@ class Stockfighter(object):
           "stock": stock,
           "price": price,
           "venue": self.venue,
+          "account": self.account,
+          "qty": qty,
+          "direction": direction,
+          "orderType": order_type,
+        }
+        url = urljoin(self.base_url, url_fragment)
+        resp = self.session.post(url, json=data)
+        return resp.json()
+
+    def quote_for_stock(self, stock):
+        """Get a quick look at the most recent trade information for a stock.
+
+        https://starfighter.readme.io/docs/a-quote-for-a-stock
+        """
