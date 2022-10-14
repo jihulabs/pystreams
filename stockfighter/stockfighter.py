@@ -85,3 +85,16 @@ class Stockfighter(object):
 
         https://starfighter.readme.io/docs/a-quote-for-a-stock
         """
+        url_fragment = 'venues/{venue}/stocks/{stock}/quote'.format(
+            venue=self.venue,
+            stock=stock,
+        )
+        url = urljoin(self.base_url, url_fragment)
+        return self.session.get(url).json()
+
+    def status_for_order(self, order_id, stock):
+        """Status For An Existing Order
+
+        https://starfighter.readme.io/docs/status-for-an-existing-order
+        """
+        url_fragment = 'venues/{venue}/stocks/{stock}/orders/{order_id}'.format(
