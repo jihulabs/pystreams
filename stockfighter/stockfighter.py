@@ -57,3 +57,17 @@ class Stockfighter(object):
         )
         url = urljoin(self.base_url, url_fragment)
         return self.session.get(url).json()
+
+    def place_new_order(self, stock, price, qty, direction, order_type):
+        """Place an order for a stock.
+
+        https://starfighter.readme.io/docs/place-new-order
+        """
+        url_fragment = 'venues/{venue}/stocks/{stock}/orders'.format(
+            venue=self.venue,
+            stock=stock,
+        )
+        data = {
+          "stock": stock,
+          "price": price,
+          "venue": self.venue,
