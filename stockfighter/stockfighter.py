@@ -110,3 +110,13 @@ class Stockfighter(object):
 
         https://starfighter.readme.io/docs/cancel-an-order
         """
+        url_fragment = 'venues/{venue}/stocks/{stock}/orders/{order_id}'.format(
+            venue=self.venue,
+            stock=stock,
+            order_id=order_id,
+        )
+        url = urljoin(self.base_url, url_fragment)
+        return self.session.delete(url).json()
+
+    def status_for_all_orders(self):
+        """Status for all orders
