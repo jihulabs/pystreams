@@ -120,3 +120,17 @@ class Stockfighter(object):
 
     def status_for_all_orders(self):
         """Status for all orders
+
+        https://starfighter.readme.io/docs/status-for-all-orders
+        """
+        url_fragment = 'venues/{venue}/accounts/{account}/orders'.format(
+            venue=self.venue,
+            account=self.account,
+        )
+        url = urljoin(self.base_url, url_fragment)
+        return self.session.get(url).json()
+
+    def status_for_all_orders_in_a_stock(self, stock):
+        """Status for all orders in a stock
+
+        https://starfighter.readme.io/docs/status-for-all-orders-in-a-stock
