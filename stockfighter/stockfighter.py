@@ -141,3 +141,4 @@ class Stockfighter(object):
             account=self.account,
         )
         url = urljoin(self.base_url, url_fragment)
+        return self.session.get(url).json()
