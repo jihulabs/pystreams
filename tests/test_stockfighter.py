@@ -5,4 +5,4 @@
 test_stockfighter
 ----------------------------------
 
-Tests for 
+Tests for `stockfighter
