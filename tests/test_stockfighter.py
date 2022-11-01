@@ -5,4 +5,5 @@
 test_stockfighter
 ----------------------------------
 
-Tests for `stockfighter
+Tests for `stockfighter` module.
+"
