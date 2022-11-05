@@ -8,3 +8,4 @@ test_stockfighter
 Tests for `stockfighter` module.
 """
 import os
+import pytest
