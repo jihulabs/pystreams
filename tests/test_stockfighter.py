@@ -9,3 +9,4 @@ Tests for `stockfighter` module.
 """
 import os
 import pytest
+from stockfighte
