@@ -9,4 +9,4 @@ Tests for `stockfighter` module.
 """
 import os
 import pytest
-from stockfighter.stockfig
+from stockfighter.stockfighter import Sto
