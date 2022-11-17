@@ -11,4 +11,4 @@ import os
 import pytest
 from stockfighter.stockfighter import Stockfighter
 
-@pyt
+@pytest.fi
