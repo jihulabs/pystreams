@@ -13,4 +13,4 @@ from stockfighter.stockfighter import Stockfighter
 
 @pytest.fixture
 def client():
-    r
+    return Stockfig
