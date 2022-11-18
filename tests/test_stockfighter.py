@@ -12,4 +12,5 @@ import pytest
 from stockfighter.stockfighter import Stockfighter
 
 @pytest.fixture
-def cli
+def client():
+    r
