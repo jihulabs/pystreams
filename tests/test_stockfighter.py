@@ -11,4 +11,5 @@ import os
 import pytest
 from stockfighter.stockfighter import Stockfighter
 
-@pytest.fi
+@pytest.fixture
+def cli
