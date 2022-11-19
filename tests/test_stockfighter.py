@@ -14,4 +14,5 @@ from stockfighter.stockfighter import Stockfighter
 @pytest.fixture
 def client():
     return Stockfighter(
-        venue='TEST
+        venue='TESTEX',
+      
