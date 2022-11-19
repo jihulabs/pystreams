@@ -15,4 +15,4 @@ from stockfighter.stockfighter import Stockfighter
 def client():
     return Stockfighter(
         venue='TESTEX',
-      
+        account='EXB123456'
