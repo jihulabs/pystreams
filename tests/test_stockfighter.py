@@ -17,4 +17,7 @@ def client():
         venue='TESTEX',
         account='EXB123456',
     )
-STOCK = 'FO
+STOCK = 'FOOBAR'
+
+
+def t
