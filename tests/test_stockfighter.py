@@ -20,4 +20,4 @@ def client():
 STOCK = 'FOOBAR'
 
 
-def t
+def test_heartbeat
