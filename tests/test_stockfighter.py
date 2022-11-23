@@ -21,4 +21,6 @@ STOCK = 'FOOBAR'
 
 
 def test_heartbeat(client):
-    assert client.heartbea
+    assert client.heartbeat() is True
+
+d
