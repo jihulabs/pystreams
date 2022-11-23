@@ -23,4 +23,4 @@ STOCK = 'FOOBAR'
 def test_heartbeat(client):
     assert client.heartbeat() is True
 
-d
+def test_venue_h
