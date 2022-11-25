@@ -26,4 +26,4 @@ def test_heartbeat(client):
 def test_venue_healthcheck(client):
     assert client.venue_healthcheck() is True
 
-def test_venu
+def test_venue_stocks(cl
