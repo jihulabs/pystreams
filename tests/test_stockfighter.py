@@ -27,4 +27,6 @@ def test_venue_healthcheck(client):
     assert client.venue_healthcheck() is True
 
 def test_venue_stocks(client):
-    assert client.venue_stocks()['ok'] is
+    assert client.venue_stocks()['ok'] is True
+
+d
