@@ -29,4 +29,5 @@ def test_venue_healthcheck(client):
 def test_venue_stocks(client):
     assert client.venue_stocks()['ok'] is True
 
-def test_orderbook_for_stock(clie
+def test_orderbook_for_stock(client):
+    asser
