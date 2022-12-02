@@ -29,4 +29,4 @@ def test_venue_healthcheck(client):
 def test_venue_stocks(client):
     assert client.venue_stocks()['ok'] is True
 
-d
+def test_order
