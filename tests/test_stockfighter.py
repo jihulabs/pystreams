@@ -30,4 +30,4 @@ def test_venue_stocks(client):
     assert client.venue_stocks()['ok'] is True
 
 def test_orderbook_for_stock(client):
-    assert client.orderbook_for_stoc
+    assert client.orderbook_for_stock(STOCK)['ok'] is
