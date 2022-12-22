@@ -33,4 +33,4 @@ def test_orderbook_for_stock(client):
     assert client.orderbook_for_stock(STOCK)['ok'] is True
 
 def test_place_new_order(client):
-    resp = client.pl
+    resp = client.place_new_order(
