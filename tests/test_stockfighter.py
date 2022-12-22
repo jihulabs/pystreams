@@ -32,4 +32,5 @@ def test_venue_stocks(client):
 def test_orderbook_for_stock(client):
     assert client.orderbook_for_stock(STOCK)['ok'] is True
 
-def test_place_new_ord
+def test_place_new_order(client):
+    r
