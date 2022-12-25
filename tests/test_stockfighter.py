@@ -34,3 +34,4 @@ def test_orderbook_for_stock(client):
 
 def test_place_new_order(client):
     resp = client.place_new_order(
+        stock=
