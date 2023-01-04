@@ -36,4 +36,5 @@ def test_place_new_order(client):
     resp = client.place_new_order(
         stock=STOCK,
         price=500,  # Ignored for this market type
-        qt
+        qty=10,
+       
