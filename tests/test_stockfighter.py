@@ -37,4 +37,5 @@ def test_place_new_order(client):
         stock=STOCK,
         price=500,  # Ignored for this market type
         qty=10,
-        directio
+        direction='buy',
+  
