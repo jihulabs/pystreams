@@ -38,4 +38,4 @@ def test_place_new_order(client):
         price=500,  # Ignored for this market type
         qty=10,
         direction='buy',
-  
+        order
