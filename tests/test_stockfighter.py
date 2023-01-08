@@ -40,4 +40,6 @@ def test_place_new_order(client):
         direction='buy',
         order_type='market',
     )
-    as
+    assert resp
+
+def test_
