@@ -42,4 +42,4 @@ def test_place_new_order(client):
     )
     assert resp
 
-def test_place_new_order_limi
+def test_place_new_order_limit_buy(cli
