@@ -46,4 +46,4 @@ def test_place_new_order_limit_buy(client):
     resp = client.place_new_order(
         stock=STOCK,
         price=500,
-   
+        qty=
