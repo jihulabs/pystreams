@@ -49,4 +49,5 @@ def test_place_new_order_limit_buy(client):
         qty=10,
         direction='buy',
         order_type='limit',
-   
+    )
+    as
