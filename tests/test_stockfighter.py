@@ -51,3 +51,5 @@ def test_place_new_order_limit_buy(client):
         order_type='limit',
     )
     assert resp
+
+def test_p
