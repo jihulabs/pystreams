@@ -53,4 +53,4 @@ def test_place_new_order_limit_buy(client):
     assert resp
 
 def test_place_new_order_limit_sell(client):
-    resp = clien
+    resp = client.place_new_orde
