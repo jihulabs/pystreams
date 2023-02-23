@@ -58,4 +58,4 @@ def test_place_new_order_limit_sell(client):
         price=500,
         qty=10,
         direction='sell',
-    
+        ord
