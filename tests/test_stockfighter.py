@@ -60,4 +60,6 @@ def test_place_new_order_limit_sell(client):
         direction='sell',
         order_type='limit',
     )
-    ass
+    assert resp
+
+def 
