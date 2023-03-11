@@ -62,4 +62,5 @@ def test_place_new_order_limit_sell(client):
     )
     assert resp
 
-def test_quote_for_stock(client)
+def test_quote_for_stock(client):
+    assert cl
