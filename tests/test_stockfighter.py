@@ -64,3 +64,5 @@ def test_place_new_order_limit_sell(client):
 
 def test_quote_for_stock(client):
     assert client.quote_for_stock(stock=STOCK)['ok'] is True
+
+def test
