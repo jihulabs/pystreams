@@ -66,4 +66,5 @@ def test_quote_for_stock(client):
     assert client.quote_for_stock(stock=STOCK)['ok'] is True
 
 def test_readme():
-    """Test the content of the README works as advertis
+    """Test the content of the README works as advertised."""
+    fro
