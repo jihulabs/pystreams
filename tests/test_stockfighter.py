@@ -67,4 +67,4 @@ def test_quote_for_stock(client):
 
 def test_readme():
     """Test the content of the README works as advertised."""
-    fro
+    from stockfighter im
