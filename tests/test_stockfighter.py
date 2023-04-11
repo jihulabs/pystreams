@@ -71,4 +71,4 @@ def test_readme():
     s = Stockfighter(venue='TESTEX', account='EXB123456', api_key='123456')
 
     from stockfighter import GM
-   
+    gm = GM(ap
