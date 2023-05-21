@@ -18,3 +18,25 @@ from cryptography.hazmat.primitives.asymmetric.padding import PKCS1v15
 
 try:
     from urllib import urlopen
+except:
+    from urllib.request import urlopen
+
+
+GITHUB_REPO = 'striglia/stockfighter'
+TRAVIS_CONFIG_FILE = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), '.travis.yml')
+
+
+def load_key(pubkey):
+    """Load public RSA key, with work-around for keys using
+    incorrect header/footer format.
+
+    Read more about RSA encryption with cryptography:
+    https://cryptography.io/latest/hazmat/primitives/asymmetric/rsa/
+    """
+    try:
+        return load_pem_public_key(pubkey.encode(), default_backend())
+    except ValueError:
+        # workaround for https://github.com/travis-ci/travis-api/issues/196
+        pubkey = pubkey.replace('BEGIN RSA', 'BEGIN').replace('END RSA', 'END')
+        return load_pem_public_key(pubkey.encode(), default_backend())
