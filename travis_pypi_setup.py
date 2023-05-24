@@ -40,3 +40,15 @@ def load_key(pubkey):
         # workaround for https://github.com/travis-ci/travis-api/issues/196
         pubkey = pubkey.replace('BEGIN RSA', 'BEGIN').replace('END RSA', 'END')
         return load_pem_public_key(pubkey.encode(), default_backend())
+
+
+def encrypt(pubkey, password):
+    """Encrypt password using given RSA public key and encode it with base64.
+
+    The encrypted password can only be decrypted by someone with the
+    private key (in this case, only Travis).
+    """
+    key = load_key(pubkey)
+    encrypted_password = key.encrypt(password, PKCS1v15())
+    return base64.b64encode(encrypted_password)
+
