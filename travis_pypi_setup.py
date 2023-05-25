@@ -52,3 +52,21 @@ def encrypt(pubkey, password):
     encrypted_password = key.encrypt(password, PKCS1v15())
     return base64.b64encode(encrypted_password)
 
+
+def fetch_public_key(repo):
+    """Download RSA public key Travis will use for this repo.
+
+    Travis API docs: http://docs.travis-ci.com/api/#repository-keys
+    """
+    keyurl = 'https://api.travis-ci.org/repos/{0}/key'.format(repo)
+    data = json.loads(urlopen(keyurl).read().decode())
+    if 'key' not in data:
+        errmsg = "Could not find public key for repo: {}.\n".format(repo)
+        errmsg += "Have you already added your GitHub repo to Travis?"
+        raise ValueError(errmsg)
+    return data['key']
+
+
+def prepend_line(filepath, line):
+    """Rewrite a file adding a line to its beginning.
+    """
