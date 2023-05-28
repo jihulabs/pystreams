@@ -70,3 +70,20 @@ def fetch_public_key(repo):
 def prepend_line(filepath, line):
     """Rewrite a file adding a line to its beginning.
     """
+    with open(filepath) as f:
+        lines = f.readlines()
+
+    lines.insert(0, line)
+
+    with open(filepath, 'w') as f:
+        f.writelines(lines)
+
+
+def load_yaml_config(filepath):
+    with open(filepath) as f:
+        return yaml.load(f)
+
+
+def save_yaml_config(filepath, config):
+    with open(filepath, 'w') as f:
+        yaml.dump(config, f, default_flow_style=False)
