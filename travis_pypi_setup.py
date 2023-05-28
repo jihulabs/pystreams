@@ -87,3 +87,12 @@ def load_yaml_config(filepath):
 def save_yaml_config(filepath, config):
     with open(filepath, 'w') as f:
         yaml.dump(config, f, default_flow_style=False)
+
+
+def update_travis_deploy_password(encrypted_password):
+    """Update the deploy section of the .travis.yml file
+    to use the given encrypted password.
+    """
+    config = load_yaml_config(TRAVIS_CONFIG_FILE)
+
+    config['deploy']['password'] = dict(secure=encrypted_password)
